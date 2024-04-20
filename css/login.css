@@ -1,0 +1,35 @@
+body {
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box {
+    display: inline-block;
+    margin-left: 20px;
+    align-content: center;
+
+}
+h2 {
+    font-size: 20px;
+}
+.logo{
+    height: 100px;
+
+}
+.input-text{
+    margin-top: 10px;
+}
+.box{
+    margin-top: 20px;
+}
+#new-user {
+    margin-top: 35px;
+}
+#login-info {
+    margin-right: 50px;
+    overflow: auto;
+    display: block;
+    align-self: center;
+    justify-content: center;
+}
