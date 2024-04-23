@@ -10,7 +10,7 @@ h2 {
 }
 .logo{
     height: 200px;
-    width: 200px;
+
     margin-left: 20px;
 
 }
@@ -27,7 +27,7 @@ h2 {
 
 }
 #login-info {
-    margin-right: 205px;
+    margin-right: 165px;
     overflow: auto;
     display: block;
     align-self: center;
