@@ -1,35 +1,78 @@
-body {
-    overflow: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+body, html {
 }
 .box {
     display: inline-block;
     margin-left: 20px;
-    align-content: center;
 
 }
 h2 {
     font-size: 20px;
 }
 .logo{
-    height: 100px;
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
 
 }
 .input-text{
     margin-top: 10px;
 }
 .box{
-    margin-top: 20px;
+
 }
 #new-user {
-    margin-top: 35px;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-family: "Comic Sans MS", cursive;
+
 }
 #login-info {
-    margin-right: 50px;
+    margin-right: 205px;
     overflow: auto;
     display: block;
     align-self: center;
     justify-content: center;
+}
+#centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    margin-top: 200px;
+    height: 500px;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#login-button{
+    margin-top: 15px;
+}
+h2 {
+    font-size: 30px;
+    font-family: "Comic Sans MS", cursive;
+}
+#welcome{
+    align-items: center;
+    text-align: center;
+}
+#login-button{
+    margin-left: auto;
+    font-size: 12px;
+    font-family: "Comic Sans MS", cursive;
+    height: 25px;
+    width: 60px;
+    margin-left: 110px;
+}
+.input-text{
+    margin-bottom: 15px;
+}
+#welcome-text{
+    font-size: 40px;
+}
+button{
+    border-radius: 5px;
+    font-size: 12px;
+    font-family: "Comic Sans MS", cursive;
+    height: 25px;
+    width: 60px;
 }
