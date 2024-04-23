@@ -3,34 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <title>Sign Up</title>
+    <link rel="stylesheet" href="../css/signup.css">
 </head>
 <body>
-    <header>
-        <h1>Thanks for your interest!</h1>
-        <h2>Let's get you set up!</h2>
-    </header>
 
     <!-- center div -->
-    <div class="signup">
+    <div id="centered" class="signup">
+
         <!-- form start -->
         <form action="#" method="post">
-            <div class="input-text">
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username" required/>
+            <header>
+                <h1>Thanks for your interest!<br></h1>
+                <h1>Let's get you<br> set up!</h1>
+            </header>
+            <div id="inputs">
+                <div class="input-text">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required/>
+                </div>
+                <div class="input-text">
+                    <label for="password">Password:</label>
+                    <input type="text" id="password" name="password" required/>
+                </div>
+                <div class="input-text">
+                    <label for="vpassword">Verify-Password:</label>
+                    <input type="text" id="vpassword" name="vpassword" required/>
+                </div>
             </div>
-            <div class="input-text">
-                <label for="password">Password:</label>
-                <input type="text" id="password" name="password" required/>
-            </div>
-            <div class="input-text">
-                <label for="vpassword">Verify-Password:</label>
-                <input type="text" id="vpassword" name="vpassword" required/>
-            </div>
-            <button type="submit">Sign Up</button>
+            <button id="signup" type="submit">Sign Up</button>
         </form>
         <!-- form end -->
 
-        <img src="../images/logo.png" alt="pawnbolo logo" height="100">
+        <img src="../images/logo.png" alt="pawnbolo logo" id="logo">
     </div>
 
 

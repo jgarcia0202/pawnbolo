@@ -1,0 +1,41 @@
+#centered{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    height: 500px;
+}
+h1{
+    font-family: "Comic Sans MS", cursive;
+    font-size: 35px;
+}
+label{
+    font-family: "Comic Sans MS", cursive;
+    font-size: 15px;
+
+}
+.input-text{
+    margin-bottom: 15px;
+}
+#logo{
+    height: 200px;
+    align-self: center;
+    justify-content: center;
+
+}
+#inputs{
+    text-align: right;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+#signup{
+    border-radius: 5px;
+    font-size: 12px;
+    font-family: "Comic Sans MS", cursive;
+    height: 25px;
+    width: 60px;
+    margin-left: 270px;
+    margin-top: 15px;
+}
+form{
+    margin-right: 50px;
+}
