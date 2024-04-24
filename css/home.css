@@ -1,0 +1,45 @@
+#top-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo{
+    height: 150px;
+}
+
+#search-bar{
+
+}
+
+#search-field{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    font-family: "Comic Sans MS", cursive;
+    border-radius: 5px;
+    font-size: 13px;
+}
+.input-container {
+    position: relative;
+}
+
+.search-input {
+    padding-left: 30px; /* Ensure space for the icon */
+}
+
+.search-input::before {
+    content: "\f002"; /* Unicode for the search icon from Font Awesome */
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    left: 10px; /* Adjust the position of the icon */
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* You can also adjust the icon color */
+.search-input::before {
+    color: #555;
+}

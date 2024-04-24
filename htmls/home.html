@@ -3,19 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
+    <link rel="stylesheet" href="../css/home.css">
 </head>
 <body>
-    <header>
-        <img src="../images/logo.png" alt="pawnbolo logo" height="100"/>
-    </header>
+    <!-- -->
+    <!-- top of page w logo and search field -->
+    <div id="top-header">
+        <img src="../images/logo.png" alt="pawnbolo logo" id="logo" "/>
+        <!-- search field div -->
+        <div id="search-field">
+            <form action="#" method="get">
+                <input id="search-bar" type="text" name="search-bar" placeholder="search...">
+                <button id="search-button" type="submit">Search</button>
+            </form>
 
-    <div id="search-field">
-        <form action="#" method="get">
-            <input type="text" name="search-bar" placeholder="search...">
-            <button type="submit">Search</button>
-        </form>
-        <button type="button">Advanced Search</button>
+            <div class="input-container">
+                <input type="text" class="search-input" placeholder="Search...">
+            </div>
+
+            <button type="button">Advanced<br>Search</button>
+        </div>
     </div>
+
+
 
     <div id="home-space">
         <h1>New Bolos Near You</h1>
